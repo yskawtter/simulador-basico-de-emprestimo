@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Emprestimo Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+<!--PROJETOS PARA FINS ESTUDANTIS.-->
+
+<body>
+    <section class="container">
+        <form id="my-form">
+            <div class="imginter">
+
+            </div>
+            <h1>Simulador de <span>Emprestimos</span></h1>
+
+            <button id="condicaoEmprestimoBtn">Requisitos para aprovação</button>
+            <!--Colocar um mouseover nele para mostrar as condicoes-->
+            <ul class="items"></ul>
+
+            <h2 class="calcularEmprestimo">Calcule aqui sua pretensão de <span>emprestimo.</span></h2>
+            <div class="msg"></div>
+            <div>
+                <label for="name">Nome completo:</label>
+                <input type="text" id="name" placeholder="Nome completo">
+            </div>
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" placeholder="Idade">
+            </div>
+            <div>
+                <label for="renda">Renda mensal:</label>
+                <input type="number" id="renda" placeholder="Ex: 1000">
+            </div>
+            <div>
+                <label for="mesestrabalho">Quantos meses empregado?</label>
+                <input type="number" id="mesestrabalho" placeholder="Minimo 6 meses">
+            </div>
+            <h3 class="sexoCor">Sexo:</h3>
+            <div class="genero">
+                <input type="radio" name="sexo" id="sexo" value="Masculino">
+                <label for="Masculino">Masculino</label>
+                <input type="radio" name="sexo" id="sexo" value="Feminino">
+                <label for="Feminino">Feminino</label>
+            </div>
+            <ul class="resultadoFim"></ul>
+            <input class="btnresultado" type="submit" value="Resultado">
+        </form>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

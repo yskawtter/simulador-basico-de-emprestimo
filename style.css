@@ -1,0 +1,75 @@
+/*PROJETO INSPIRADO NA PALETA DE CORES DO BANCO INTER*/
+
+body {
+    background-color: #222;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+.container {
+    background-color: white;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    border-radius: 12px;
+}
+.container h1 {
+    text-align: center;
+    font-size: 32px;
+}
+.container h1 span {
+    color: #FF6E07;
+    font-weight: bold;
+}
+#condicaoEmprestimoBtn {
+    padding: 10px 40px;
+    background-color: #FF8700;
+    color: white;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 4px;
+}
+.my-form h2 {
+    color: #656565;
+}
+
+/*PARTE EMPRESTIMO*/
+.calcularEmprestimo span{
+    color:#FF7A00;
+}
+.sexoCor {
+    color:#222;
+}
+div label {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+div input {
+    font: 400 16px;
+    background: #F5F7FA;
+    border: 1px solid #FF8700;
+    padding: 9px 15px;
+}
+.genero {
+    display: flex !important;
+    align-items: center;
+    
+    justify-items: center;
+    padding: 0px;
+    color: #FF8700;
+    padding: 2px;
+    
+}
+.genero label {
+    margin-top: 6px;
+    margin-left: 2px;
+}
+.btnresultado {
+    padding: 10px 40px;
+    background-color: white;
+    color: #FF8700;
+    text-transform: uppercase;
+    border: 2px solid #FF6E07;
+    border-radius: 4px;
+}
